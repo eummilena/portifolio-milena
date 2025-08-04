@@ -1,3 +1,10 @@
+.nav {
+    padding: 2rem 6rem;
+    height: 100vh;
+    background-color: #4E4231;
+    width: 25vw;
+}
+
 .button {
     background: none;
     border: none;
@@ -6,6 +13,7 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    margin-left: 25rem;
 }
 
 .linha {
