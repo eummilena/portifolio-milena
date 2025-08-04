@@ -1,14 +1,15 @@
 import './App.css'
 import Header from './components/Header'
-
+import Nav from './components/Nav'
 
 function App() {
-
-
   return (
-    <>
-      <Header />
-    </>
+    <div className='container'>
+
+      <Header className='header' />
+      <Nav className='navigate' />
+
+    </div>
   )
 }
 
