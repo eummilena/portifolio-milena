@@ -1,0 +1,16 @@
+.header {
+    padding: 2rem 6rem;
+    display: grid;
+    grid-column: 3fr 1fr;
+    grid-template-areas: "principal  nav";
+    justify-content: space-between;
+}
+
+.logo {
+    grid-area: principal;
+}
+
+.nav {
+    grid-area: nav;
+    background: #4E4231;
+}
