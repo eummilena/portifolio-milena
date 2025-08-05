@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../Assets/Milena.svg'
 import styles from './Header.module.css'
-import Nav from './Nav'
+
 
 const Header = () => {
     return (

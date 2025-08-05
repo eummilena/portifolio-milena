@@ -1,0 +1,23 @@
+.main {
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 4rem 0;
+    font-size: 1.2rem;
+}
+
+.dot {
+    color: #9D7D6C;
+}
+
+.text p:first-child {
+    text-transform: uppercase;
+}

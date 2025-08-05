@@ -1,8 +1,11 @@
 .nav {
     padding: 2rem 6rem;
-    height: 100vh;
     background-color: #4E4231;
-    width: 25vw;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    grid-area: nav;
 }
 
 .button {
@@ -11,9 +14,9 @@
     width: 80px;
     height: 80px;
     display: flex;
-    flex-direction: column;
+
     cursor: pointer;
-    margin-left: 25rem;
+
 }
 
 .linha {
