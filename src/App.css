@@ -19,7 +19,8 @@ body {
   height: 100vh;
   display: grid;
   grid-template-areas: " header nav"
-    "content nav ";
+    "content nav "
+    "footer nav ";
   grid-template-columns: 3fr auto;
   grid-template-rows: auto 1fr;
 
