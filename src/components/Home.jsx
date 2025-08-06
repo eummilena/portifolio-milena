@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from '../Assets/Group.svg'
 import styles from './Home.module.css'
-
+import 'animate.css';
 
 const Home = () => {
     return (
@@ -14,7 +14,7 @@ const Home = () => {
             </div>
 
             <div className={styles.icon}>
-                <img src={Icon} alt="ícone" />
+                <img src={Icon} alt="ícone" className='animate__animated animate__flip' />
             </div>
 
         </main>
