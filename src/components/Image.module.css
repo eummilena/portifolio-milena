@@ -1,14 +1,10 @@
 .image {
     position: absolute;
-    top: 230px;
-    /* ajuste conforme necessário */
-    right: 150px;
-    /* ajuste conforme necessário */
+    top: 20vh;
+    left: 50vw;
     z-index: 10;
-    /* garante que fique acima dos outros */
-    width: 40vw;
-    /* ajuste conforme necessário */
     height: auto;
     pointer-events: none;
-    /* para não bloquear cliques no menu */
+    width: 100px;
+
 }
