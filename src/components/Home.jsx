@@ -9,7 +9,7 @@ const Home = () => {
 
             <div className={styles.text}>
                 <p>Olá, eu sou <strong>Milena!</strong></p>
-                <h1>Desenvolvedora <br /> Frontend<span className={styles.dot}>.</span></h1>
+                <h1>Desenvolvedora <br /> Frontend<span className='dot'>.</span></h1>
                 <p>Transformo ideias em interfaces funcionais, bonitas e intuitivas.</p>
             </div>
 

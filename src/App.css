@@ -45,6 +45,26 @@ p {
 
 }
 
-h1 {
-  font-weight: 700;
+
+.dot,
+.barra {
+  color: #9D7D6C;
+}
+
+button {
+  font-family: var(--type-first);
+  font-size: 1rem;
+  background: none;
+  border: 3px solid #5C331D;
+  padding: 1em 3em;
+  cursor: pointer;
+  color: #5C331D;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #6E4129;
+  color: #EBE8E2;
+  transition: 0.3s;
 }
