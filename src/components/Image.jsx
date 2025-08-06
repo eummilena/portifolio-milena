@@ -4,9 +4,9 @@ import styles from './Image.module.css'
 
 const Image = () => {
     return (
-        <div className={styles.image}>
-            <img src={Ilustracao} alt="Ilustração mulher programadora" />
-        </div>
+        <figure className={styles.image}>
+            <img src={Ilustracao} alt="Ilustração de uma mulher programadora" />
+        </figure>
     )
 }
 
