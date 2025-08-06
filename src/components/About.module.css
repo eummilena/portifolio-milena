@@ -6,7 +6,11 @@
     justify-content: start;
     padding: 4rem 8em;
     gap: 20px;
-
+    background-image: url('../assets/Vector.png');
+    background-repeat: no-repeat;
+    background-size: 5px 5px;
+    background-position: bottom left 5%;
+    background-size: auto;
 }
 
 .title {
