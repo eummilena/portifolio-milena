@@ -1,0 +1,42 @@
+.main {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 4rem 8em;
+    gap: 20px;
+
+}
+
+.title {
+    /* font-size: clamp(1.8rem, .8rem + 1vw, 3rem); */
+    font-weight: 700;
+
+}
+
+.text {
+    /* font-size: clamp(1.2rem, .1rem + 1vw, 1.5rem); */
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 2rem 0;
+}
+
+.bolinhas,
+.poligonos {
+    width: 100px;
+
+}
+
+.vector {
+    right: 50px;
+}
