@@ -18,7 +18,7 @@ const About = () => {
                 <button type='button'>Baixar CV</button>
                 <img src={bolinhas} className={styles.bolinhas} alt="Bolinhas" />
             </div>
-            <img src={Vector} className={styles.vector} alt="Vector" />
+
         </main>
     )
 }
