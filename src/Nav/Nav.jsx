@@ -16,8 +16,14 @@ const Nav = () => {
             <button aria-controls='menu' id='menu-button' className={styles.button} onClick={() => { handleClick() }} >
                 Abrir menu <span className={styles.linha}></span>
             </button>
-            <NavLink to='/' end >Home</NavLink>
-            <NavLink to='/sobre'>Sobre</NavLink>
+            <div className={styles.navLink}>
+                <NavLink to='/' end className={({ isActive }) => isActive ? styles.ativo : ''} > <span className={styles.bolinha}></span> </NavLink>
+                <NavLink to='/sobre' className={({ isActive }) => isActive ? styles.ativo : ''}> <span className={styles.bolinha}></span> </NavLink>
+                <NavLink to='/habilidades' className={({ isActive }) => isActive ? styles.ativo : ''}> <span className={styles.bolinha}></span> </NavLink>
+                <NavLink to='/projetos' className={({ isActive }) => isActive ? styles.ativo : ''}> <span className={styles.bolinha}></span> </NavLink>
+                <NavLink to='/contato' className={({ isActive }) => isActive ? styles.ativo : ''}> <span className={styles.bolinha}></span> </NavLink>
+            </div>
+
         </nav>
     )
 }
