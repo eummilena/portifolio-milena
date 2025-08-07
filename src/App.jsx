@@ -1,10 +1,10 @@
 import './App.css'
-import Header from './components/Header'
-import Home from './components/Home'
-import Nav from './components/Nav'
+import Header from './Header/Header'
+import Home from './Home/Home'
+import Nav from './Nav/Nav'
 import Image from './components/Image'
-import Footer from './components/Footer'
-import About from './components/About'
+import Footer from './Footer/Footer'
+import About from './About/About'
 function App() {
   return (
     <div className='container'>
@@ -12,9 +12,9 @@ function App() {
       <Header />
       <Nav />
 
-      <About />
+      <Home />
+      {/* <About /> */}
 
-      {/* Assuming Image is a component that displays an image */}
       <Image />
 
       <Footer />
