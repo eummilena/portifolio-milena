@@ -1,14 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Nav.module.css'
+import { NavLink } from 'react-router-dom';
 
 
 const Nav = () => {
-    return (
-        <nav className={styles.nav} id='menu'>
-            <button aria-controls='menu' aria-expanded='false' aria-label='Abrir Menu' className={styles.button}>
-                <span aria-hidden='true' className={styles.linha}> </span>
-            </button>
 
+    const [menuAberto, setMenuAberto] = useState(false);
+
+    function handleClick() {
+        setMenuAberto(!menuAberto);
+    }
+
+    return (
+        <nav className={`${styles.nav} ${menuAberto ? styles.navActive : ''}`} id='nav' aria-label='Abrir Menu' aria-expanded={menuAberto} >
+            <button aria-controls='menu' id='menu-button' className={styles.button} onClick={() => { handleClick() }} >
+                Abrir menu <span className={styles.linha}></span>
+            </button>
+            <NavLink to='/' end >Home</NavLink>
+            <NavLink to='/sobre'>Sobre</NavLink>
         </nav>
     )
 }
