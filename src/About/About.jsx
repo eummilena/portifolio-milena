@@ -3,6 +3,7 @@ import styles from './About.module.css'
 import bolinhas from '../Assets/bolinhas.svg'
 import Vector from '../Assets/Vector.png'
 import Poligonos from '../Assets/poligonos.svg'
+import Button from '../components/Button'
 
 const About = () => {
     return (
@@ -15,7 +16,7 @@ const About = () => {
                 <img src={Poligonos} className={styles.poligonos} alt="Poligonos" />
             </div>
             <div className={styles.buttonContainer}>
-                <button type='button'>Baixar CV</button>
+                <Button>Baixar cv</Button>
                 <img src={bolinhas} className={styles.bolinhas} alt="Bolinhas" />
             </div>
 
@@ -23,6 +24,6 @@ const About = () => {
     )
 }
 
-export default About 
+export default About
 
 
