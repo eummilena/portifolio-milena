@@ -25,7 +25,6 @@ function App() {
           <Route path='/projetos' element={<Projects />} />
           <Route path='/contato' element={<Contact />} />
         </Routes>
-        <Image />
         <Footer />
       </BrowserRouter>
 
