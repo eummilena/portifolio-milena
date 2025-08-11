@@ -1,0 +1,44 @@
+.modal {
+    top: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #C3B7B0;
+    padding: 2rem 4rem;
+    border-radius: 2px;
+    width: 300px;
+
+}
+
+
+.list {
+    text-decoration: none;
+    color: #40321F;
+    font-weight: 500;
+}
+
+.list:last-child {
+    background-color: #7B533E;
+    width: 75px;
+    padding: .4rem;
+    color: #C3B7B0;
+}
+
+.list:hover.list::after {
+    content: ' ';
+    width: 30px;
+    height: 2px;
+    background-color: #8B6754;
+    display: block;
+    transition: 0.2s;
+}
+
+.listDark:hover.listDark::after {
+    content: ' ';
+    width: 30px;
+    height: 2px;
+    background-color: #8B6754;
+    display: block;
+    transition: 0.2s;
+}
