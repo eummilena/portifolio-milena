@@ -50,3 +50,7 @@ p {
 .barra {
   color: #9D7D6C;
 }
+
+.animate__animated.animate__bounceIn {
+  --animate-duration: 1s;
+}
