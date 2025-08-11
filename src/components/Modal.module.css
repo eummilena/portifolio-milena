@@ -12,29 +12,21 @@
 }
 
 
-.list {
+.list:nth-child(-n+4) {
     text-decoration: none;
-    color: #40321F;
+    color: #342613;
     font-weight: 500;
 }
 
 .list:last-child {
-    background-color: #7B533E;
+    background-color: #5C331D;
     width: 75px;
     padding: .4rem;
-    color: #C3B7B0;
+    color: #EFE8DD;
+    text-decoration: none;
 }
 
-.list:hover.list::after {
-    content: ' ';
-    width: 30px;
-    height: 2px;
-    background-color: #8B6754;
-    display: block;
-    transition: 0.2s;
-}
-
-.listDark:hover.listDark::after {
+.list:nth-child(-n+4):hover::after {
     content: ' ';
     width: 30px;
     height: 2px;
