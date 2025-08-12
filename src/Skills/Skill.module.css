@@ -1,0 +1,47 @@
+.main {
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: start !important;
+    gap: 20px;
+    width: 40vw;
+
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.descriptionMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    gap: 32px;
+}
+
+
+
+.ilustracao {
+    height: auto;
+    max-width: 100%;
+}
