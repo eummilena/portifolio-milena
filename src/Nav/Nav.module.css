@@ -11,7 +11,7 @@
 
  .navContent {
      padding: 2rem 6rem;
-     width: 35vw;
+     width: 25vw;
      grid-area: nav;
      display: flex;
      flex-direction: column;
