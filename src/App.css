@@ -54,3 +54,16 @@ p {
 .animate__animated.animate__bounceIn {
   --animate-duration: 1s;
 }
+
+a {
+  text-decoration: none;
+  color: #5C331D;
+}
+
+h1 {
+  font-size: clamp(2.5em, 1.8em, 1.5em);
+}
+
+p {
+  font-size: clamp(1.2em, 0.8em, 0.75em);
+}
