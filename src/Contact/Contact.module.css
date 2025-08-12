@@ -1,0 +1,40 @@
+.main {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 6rem;
+    background-image: url('../assets/Vector.png');
+    background-repeat: no-repeat;
+    background-size: 5px 5px;
+    background-position: bottom left 5%;
+    background-size: auto;
+    gap: 1em;
+}
+
+.section {
+    width: 60vw;
+    height: 20vh;
+    padding: 1em 0;
+    background-image: url('../Assets/poligonos.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.socialMedia a:hover {
+    color: #342613;
+    text-decoration: underline;
+}
+
+.bolinhas {
+    margin-left: 30em;
+}
