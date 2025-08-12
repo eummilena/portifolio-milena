@@ -8,6 +8,7 @@
     padding: 2rem 4rem;
     border-radius: 2px;
     width: 300px;
+    z-index: 9;
 
 }
 
