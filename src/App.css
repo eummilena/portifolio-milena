@@ -67,3 +67,7 @@ h1 {
 p {
   font-size: clamp(1.2em, 0.8em, 0.75em);
 }
+
+li {
+  list-style: none;
+}
