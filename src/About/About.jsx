@@ -10,11 +10,11 @@ const About = () => {
             <Head title='Sobre' />
             <h1><span className='barra' aria-hidden="true">/</span>sobre <span className='dot' aria-hidden="true">.</span></h1>
             <div className={styles.text} aria-label='Texto descritivo sobre mim' >
-                <p>Lorem ipsum dolor sit amet. Qui iusto eaque ab sunt ipsam eum dolorum internos. Quo assumenda galisum ad porro quos sed dolor dolorem ut omnis quaerat et rerum voluptas ex reiciendis culpa. Qui amet unde qui delectus nostrum qui repellendus voluptatem vel delectus ipsam est possimus enim? 33 quia deleniti ut quia explicabo ut praesentium rerum.</p>
+                <p>Olá, eu sou a <strong>Milena</strong>! Trabalho como desenvolvedora front-end há 2 anos, criando e dando vida a sites e aplicativos. Gosto de transformar ideias em projetos funcionais e visualmente agradáveis, unindo código limpo a boas práticas de UI/UX. Atualmente, estou mergulhada no universo do React e TypeScript, sempre buscando aprender mais e criar experiências que sejam práticas e agradáveis para o usuário.</p>
                 <img src={Poligonos} className={styles.poligonos} alt="" aria-hidden="true" />
             </div>
             <div className={styles.buttonContainer}>
-                <Button ariaLabel='baixar currículo'>Baixar cv</Button>
+                <Button ariaLabel='Baixar currículo em PDF' href="/curriculo.pdf" download="curriculo-milena-frontend.pdf">Baixar cv</Button>
                 <img src={bolinhas} className={styles.bolinhas} alt="" aria-hidden="true" />
             </div>
         </main>
