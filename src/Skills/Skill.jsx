@@ -9,6 +9,7 @@ import git from '../Assets/mdi_github.svg'
 import js from '../Assets/javascript.svg'
 import bolinhas from '../Assets/bolinhas.svg'
 import styles from './Skill.module.css'
+import Head from '../components/Head'
 
 const descriptions = {
     html: 'HTML5 – Linguagem de marcação usada para estruturar o conteúdo de páginas web, garantindo semântica e acessibilidade.',
@@ -30,25 +31,26 @@ const Skill = () => {
 
     return (
         <main className={styles.main}>
-            <h1><span className='barra'>/</span>conhecimentos<span className='dot'>.</span></h1>
+            <Head title='Habilidades' />
+            <h1><span className='barra' aria-hidden="true">/</span>conhecimentos <span className='dot' aria-hidden="true">.</span></h1>
             <p className={styles.text}>Passe o cursor do mouse nos ícones para ler a descrição</p>
 
             <div className={styles.description}>
-                <img src={ilustracao} alt="" className={styles.ilustracao} />
+                <img src={ilustracao} alt="" className={styles.ilustracao} aria-hidden="true" />
                 <div className={styles.descriptionMedia}>
-                    <div className={styles.icons}>
-                        <img src={Html} alt="ícone html" id='html' onMouseOver={handleOver} />
-                        <img src={css} alt="ícone css" id='css' onMouseOver={handleOver} />
-                        <img src={js} alt="ícone javascript" id='js' onMouseOver={handleOver} />
-                        <img src={ts} alt="ícone typescript" id='ts' onMouseOver={handleOver} />
-                        <img src={react} alt="ícone react" id='react' onMouseOver={handleOver} />
-                    </div>
-                    <p className={styles.descriptionSkill} id='description'>{description}</p>
+                    <ul className={styles.icons}>
+                        <li><img src={Html} alt="ícone html" id='html' onMouseOver={handleOver} onFocus={handleOver} role='button' aria-label='Ver descrição de HTML5' className={styles.icon} /></li>
+                        <li><img src={css} alt="ícone css" id='css' onMouseOver={handleOver} onFocus={handleOver} role='button' aria-label='Ver descrição de CSS' className={styles.icon} /></li>
+                        <li><img src={js} alt="ícone javascript" id='js' onMouseOver={handleOver} onFocus={handleOver} role='button' aria-label='Ver descrição de JavaScript' className={styles.icon} /></li>
+                        <li> <img src={ts} alt="ícone typescript" id='ts' onMouseOver={handleOver} onFocus={handleOver} role='button' aria-label='Ver descrição de TypeScript' className={styles.icon} /></li>
+                        <li><img src={react} alt="ícone react" id='react' onMouseOver={handleOver} onFocus={handleOver} role='button' aria-label='Ver descrição de React' className={styles.icon} /></li>
+                    </ul>
+                    <p className={styles.descriptionSkill} aria-live='polite'>{description}</p>
                     <div className={styles.socialMedia}>
-                        <img src={git} alt="" />
-                        <img src={linkedin} alt="" />
+                        <a href="https://github.com/eummilena"><img src={git} alt="Acesse o GitHub de Milena" /></a>
+                        <a href="https://www.linkedin.com/in/milena-mota1/"><img src={linkedin} alt="Acesse o LinkedIn de Milena" /></a>
                     </div>
-                    <img src={bolinhas} className={styles.bolinhas} alt="" />
+                    <img src={bolinhas} className={styles.bolinhas} alt="" aria-hidden="true" />
 
                 </div>
             </div>

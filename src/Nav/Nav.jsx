@@ -36,19 +36,21 @@ const Nav = () => {
                 aria-controls='menu'
                 id='menu-button'
                 className={styles.button}
-                onClick={() => { handleClick() }}
+                onClick={handleClick}
+                aria-label={menuAberto ? 'Fechar menu' : 'Abrir menu'}
+                aria-expanded={menuAberto}
             >
-                <span className={styles.linha}></span>
+                <span className={styles.linha} aria-hidden='true'></span>
             </button>
 
             {menuAberto && <Modal ariaModal={menuAberto} />}
-            <div className={styles.navLink}>
-                <NavLink to='/' end className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''} > <span className={bolinhaClass}></span> </NavLink>
-                <NavLink to='/sobre' className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''}> <span className={bolinhaClass}></span> </NavLink>
-                <NavLink to='/habilidades' className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''}> <span className={bolinhaClass}></span> </NavLink>
-                <NavLink to='/projetos' className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''}> <span className={bolinhaClass}></span> </NavLink>
-                <NavLink to='/contato' className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''}> <span className={bolinhaClass}></span> </NavLink>
-            </div>
+            <ul className={styles.navLink}>
+                <li><NavLink to='/' end className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''} aria-label='Início'> <span className={bolinhaClass} aria-hidden='true'></span> </NavLink></li>
+                <li><NavLink to='/sobre' className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''} aria-label='Sobre'> <span className={bolinhaClass} aria-hidden='true'></span> </NavLink></li>
+                <li><NavLink to='/habilidades' className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''} aria-label='Habilidades'> <span className={bolinhaClass} aria-hidden='true'></span> </NavLink></li>
+                <li><NavLink to='/projetos' className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''} aria-label='Projetos'> <span className={bolinhaClass} aria-hidden='true'></span> </NavLink></li>
+                <li><NavLink to='/contato' className={({ isActive }) => isActive ? `animate__animated animate__bounceIn ${ativo}` : ''} aria-label='Contato'> <span className={bolinhaClass} aria-hidden='true'></span> </NavLink></li>
+            </ul>
 
         </nav>
     )
