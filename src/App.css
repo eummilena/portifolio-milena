@@ -23,7 +23,7 @@ body {
     "footer nav ";
   grid-template-columns: 3fr auto;
   grid-template-rows: auto 1fr;
-
+  grid-auto-flow: row
 }
 
 .header {

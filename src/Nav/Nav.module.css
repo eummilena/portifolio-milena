@@ -131,3 +131,9 @@
      background-color: #4E4231;
      transition: .3s;
  }
+
+ @media (max-width:900px) {
+     .navLink {
+         display: none;
+     }
+ }
