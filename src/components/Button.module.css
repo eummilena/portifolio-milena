@@ -1,17 +1,43 @@
 .button {
-    font-family: var(--type-first);
+    position: relative;
+    overflow: hidden;
     font-size: 1rem;
     background: none;
-    border: 3px solid #5C331D;
+    border: 1px solid #5C331D;
     padding: 1em 3em;
     cursor: pointer;
     color: #5C331D;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #6E4129;
+    z-index: -1;
+    transition: width 0.3s;
+}
+
+.button:hover::before {
+    width: 100%;
 }
 
 .button:hover {
-    background: #6E4129;
     color: #EBE8E2;
-    transition: 0.3s;
+}
+
+.button {
+    position: relative;
+    z-index: 1;
+}
+
+.button>* {
+    position: relative;
+    z-index: 2;
 }

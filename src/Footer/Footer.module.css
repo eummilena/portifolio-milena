@@ -2,3 +2,10 @@
     grid-area: footer;
     padding: 2rem 6rem;
 }
+
+@media (max-width:900px) {
+
+    .footer {
+        padding: 2em;
+    }
+}

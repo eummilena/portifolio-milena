@@ -5,6 +5,7 @@ import Button from '../components/Button'
 import Email from '../Assets/email.svg'
 import { GoArrowUpRight } from "react-icons/go";
 import bolinhas from '../Assets/bolinhas.svg'
+import Head from '../components/Head'
 
 
 const Contact = () => {
@@ -19,20 +20,21 @@ const Contact = () => {
 
     return (
         <main className={styles.main}>
-            <h1><span className='barra'>/</span>contato <span className='dot'>.</span></h1>
+            <Head title='Contato' />
+            <h1><span className='barra' aria-hidden="true">/</span>contato <span className='dot' aria-hidden="true">.</span></h1>
             <h2>Ficou com alguma dúvida ou quer bater um papo? Estou por aqui :)</h2>
             <section className={styles.section}>
                 <div className={styles.socialMedia}>
-                    <img src={Email} alt="ícone email" />
+                    <img src={Email} alt="Ícone Email" />
                     <a href="mailto:milenabmota@gmail.com">milenabmota@gmail.com</a>
                 </div>
                 <div className={styles.socialMedia}>
-                    <img src={linkedin} alt="ícone linkedin" />
-                    <a href="https://www.linkedin.com/in/milena-mota1/">Milena Mota</a>
+                    <img src={linkedin} alt="ícone LinkedIn" />
+                    <a href="https://www.linkedin.com/in/milena-mota1/" rel="noopener noreferrer" target="_blank">Milena Mota</a>
                 </div>
             </section>
-            <Button onClick={handleClick}>Fale comigo <GoArrowUpRight /></Button>
-            <img src={bolinhas} className={styles.bolinhas} alt="" />
+            <Button ariaLabel="Abrir caixa de entrada de email" onClick={handleClick}>Fale comigo <GoArrowUpRight /></Button>
+            <img src={bolinhas} className={styles.bolinhas} alt="" aria-hidden="true" />
 
         </main>
     )
