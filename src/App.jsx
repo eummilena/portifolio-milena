@@ -8,12 +8,15 @@ import About from './About/About'
 import Skill from './Skills/Skill'
 import Contact from './Contact/Contact'
 import Projects from './Projects/Projects'
-
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import useMedia from './Hook/useMedia'
+
+
 function App() {
+
+  const isMobile = useMedia("(max-width:900px)");
   return (
-    <div className='container'>
+    <div className={isMobile ? 'containerMobile' : 'container'}>
 
       <BrowserRouter>
         <Header />
