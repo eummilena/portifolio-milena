@@ -35,3 +35,15 @@
     width: 100px;
 
 }
+
+@media (max-width:900px) {
+    .main {
+        padding: 0 3em;
+    }
+
+    .bolinhas,
+    .poligonos {
+        display: none;
+
+    }
+}

@@ -96,6 +96,7 @@
      display: flex;
      flex-direction: column;
      gap: 25px;
+     z-index: 15;
  }
 
  .bolinha {
@@ -133,6 +134,27 @@
  }
 
  @media (max-width:900px) {
+     .nav {
+         width: 5vw;
+         padding: 0 4em;
+         align-items: center;
+         justify-content: center;
+         grid-column: 2;
+         grid-row: auto;
+
+     }
+
+     .navContent {
+         width: 5vw;
+         background-color: #4E4231;
+         padding: 0 4em;
+         align-items: center;
+         justify-content: center;
+         grid-column: 2;
+         grid-row: auto;
+         background-image: none;
+     }
+
      .navLink {
          display: none;
      }

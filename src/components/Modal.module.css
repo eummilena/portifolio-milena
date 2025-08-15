@@ -35,3 +35,14 @@
     display: block;
     transition: 0.2s;
 }
+
+@media (max-width:900px) {
+
+    .modal {
+        align-items: center;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}

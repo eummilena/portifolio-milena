@@ -19,3 +19,20 @@
 .text p:first-child {
     text-transform: uppercase;
 }
+
+@media (max-width:900px) {
+
+    .icon {
+        display: none;
+    }
+
+    .main {
+        padding-left: 1em;
+        justify-content: center;
+    }
+
+    .text {
+
+        max-width: fit-content;
+    }
+}

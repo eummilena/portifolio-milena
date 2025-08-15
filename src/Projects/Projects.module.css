@@ -39,3 +39,18 @@
 .bolinhas {
     margin-left: 30em;
 }
+
+@media (max-width:900px) {
+    .main {
+
+        padding: 2em 3em;
+    }
+
+    .section {
+        height: auto;
+    }
+
+    .bolinhas {
+        display: none;
+    }
+}
