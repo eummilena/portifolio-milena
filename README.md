@@ -1,12 +1,33 @@
-# React + Vite
+# Portifólio de Milena
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio!
 
-Currently, two official plugins are available:
+Aqui compartilho alguns projetos que desenvolvi no Front-end, unindo prática e aprendizado.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre mim
 
-## Expanding the ESLint configuration
+Sou desenvolvedora Front-end com mais de 2 anos de experiência na manutenção e desenvolvimento de sites e aplicações web.  
+Gosto de transformar ideias em projetos funcionais e visualmente agradáveis, unindo código limpo a boas práticas de **UI/UX**.  
+Atualmente, estou me aprofundando em **React** e **TypeScript**.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Habilidades
+
+- **HTML5 & CSS3** → Criação de layouts responsivos e acessíveis.  
+- **JavaScript (ES6+)** → Lógica, interatividade e boas práticas.  
+- **React (em aprendizado)** → Desenvolvimento de interfaces dinâmicas.  
+- **TypeScript (em aprendizado)** → Tipagem para mais segurança no código.  
+- **Git & GitHub** → Versionamento e colaboração em equipe.  
+- **UI/UX** → Foco em usabilidade e experiência do usuário. 
+
+## Como rodar  
+Clone este repositório e rode o projeto localmente:  
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+npm install
+npm run dev
+
+##  Contato  
+- ✉️ Email: milenabmota@gmail.com
+ 
