@@ -19,6 +19,13 @@
 
 }
 
+@media (max-width:1350px) {
+    .image img {
+        width: 35vw;
+    }
+
+}
+
 @media (max-width:900px) {
     .image img {
         display: none;
