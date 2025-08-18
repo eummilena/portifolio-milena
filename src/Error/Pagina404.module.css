@@ -1,0 +1,29 @@
+ .main {
+     grid-area: content;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding-left: 6rem;
+     background-image: url('../assets/Vector.png');
+     background-repeat: no-repeat;
+     background-size: 5px 5px;
+     background-position: bottom left 5%;
+     background-size: auto;
+     gap: 2em;
+ }
+
+
+
+ .image {
+
+     width: 100%;
+     max-width: 500px;
+
+ }
+
+ @media (max-width:900px) {
+     .main {
+         padding: 2em;
+     }
+ }
