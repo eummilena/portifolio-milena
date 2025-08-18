@@ -10,6 +10,7 @@ import Contact from './Contact/Contact'
 import Projects from './Projects/Projects'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import useMedia from './Hook/useMedia'
+import Pagina404 from './Error/Pagina404'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/habilidades' element={<Skill />} />
           <Route path='/projetos' element={<Projects />} />
           <Route path='/contato' element={<Contact />} />
+          <Route path="*" element={<Pagina404 />} />
         </Routes>
         <Footer />
       </BrowserRouter>
