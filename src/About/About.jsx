@@ -14,7 +14,7 @@ const About = () => {
                 <img src={Poligonos} className={styles.poligonos} alt="" aria-hidden="true" />
             </div>
             <div className={styles.buttonContainer}>
-                <Button ariaLabel='Baixar currículo em PDF' href="/curriculo.pdf" download="curriculo-milena-frontend.pdf">Baixar cv</Button>
+                <Button ariaLabel='Baixar currículo em PDF' href="/curriculo.pdf" download="curriculo.pdf">Baixar cv</Button>
                 <img src={bolinhas} className={styles.bolinhas} alt="" aria-hidden="true" />
             </div>
         </main>
