@@ -27,7 +27,36 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 npm install
 npm run dev
+```
 
-##  Contato  
+---
+
+## 📷 Imagens do projeto
+
+Abaixo há prévias das telas do projeto (imagens em `docs/images`). Clique nas imagens para abrir em tamanho real.
+
+<div style="display:flex; flex-wrap:wrap; gap:16px; align-items:flex-start; justify-content:center;">
+  <a href="./docs/images/About.png" style="flex:1 1 240px; max-width:320px;">
+    <img src="./docs/images/About.png" alt="About" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+  </a>
+  <a href="./docs/images/Contact.png" style="flex:1 1 240px; max-width:320px;">
+    <img src="./docs/images/Contact.png" alt="Contact" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+  </a>
+  <a href="./docs/images/Error.png" style="flex:1 1 240px; max-width:320px;">
+    <img src="./docs/images/Error.png" alt="Error" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+  </a>
+  <a href="./docs/images/Home.png" style="flex:1 1 240px; max-width:320px;">
+    <img src="./docs/images/Home.png" alt="Home" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+  </a>
+  <a href="./docs/images/Project.png" style="flex:1 1 240px; max-width:320px;">
+    <img src="./docs/images/Project.png" alt="Project" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+  </a>
+  <a href="./docs/images/Skill.png" style="flex:1 1 240px; max-width:320px;">
+    <img src="./docs/images/Skill.png" alt="Skill" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+  </a>
+</div>
+
+---
+
+## Contato
 - ✉️ Email: milenabmota@gmail.com
- 
