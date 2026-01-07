@@ -35,24 +35,24 @@ npm run dev
 
 Abaixo há prévias das telas do projeto (imagens em `docs/images`). Clique nas imagens para abrir em tamanho real.
 
-<div style="display:flex; flex-wrap:wrap; gap:16px; align-items:flex-start; justify-content:center;">
-  <a href="./docs/images/About.png" style="flex:1 1 240px; max-width:320px;">
-    <img src="./docs/images/About.png" alt="About" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+<div style="display:flex; flex-wrap:wrap; gap:12px; align-items:flex-start; justify-content:center;">
+ <a href="./docs/images/Home.png" style="flex:1 1 160px; max-width:220px;">
+    <img src="./docs/images/Home.png" alt="Home" style="width:100%; height:auto; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
   </a>
-  <a href="./docs/images/Contact.png" style="flex:1 1 240px; max-width:320px;">
-    <img src="./docs/images/Contact.png" alt="Contact" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+  <a href="./docs/images/About.png" style="flex:1 1 160px; max-width:220px;">
+    <img src="./docs/images/About.png" alt="About" style="width:100%; height:auto; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
   </a>
-  <a href="./docs/images/Error.png" style="flex:1 1 240px; max-width:320px;">
-    <img src="./docs/images/Error.png" alt="Error" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+    <a href="./docs/images/Skill.png" style="flex:1 1 160px; max-width:220px;">
+    <img src="./docs/images/Skill.png" alt="Skill" style="width:100%; height:auto; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
   </a>
-  <a href="./docs/images/Home.png" style="flex:1 1 240px; max-width:320px;">
-    <img src="./docs/images/Home.png" alt="Home" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+    <a href="./docs/images/Project.png" style="flex:1 1 160px; max-width:220px;">
+    <img src="./docs/images/Project.png" alt="Project" style="width:100%; height:auto; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
   </a>
-  <a href="./docs/images/Project.png" style="flex:1 1 240px; max-width:320px;">
-    <img src="./docs/images/Project.png" alt="Project" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+  <a href="./docs/images/Contact.png" style="flex:1 1 160px; max-width:220px;">
+    <img src="./docs/images/Contact.png" alt="Contact" style="width:100%; height:auto; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
   </a>
-  <a href="./docs/images/Skill.png" style="flex:1 1 240px; max-width:320px;">
-    <img src="./docs/images/Skill.png" alt="Skill" style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+  <a href="./docs/images/Error.png" style="flex:1 1 160px; max-width:220px;">
+    <img src="./docs/images/Error.png" alt="Error" style="width:100%; height:auto; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,0.08);">
   </a>
 </div>
 
